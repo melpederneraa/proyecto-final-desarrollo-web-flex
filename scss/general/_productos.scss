@@ -1,4 +1,4 @@
-// _productos.scss
+// productos
 .productos {
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@
         font-size: 14px;
         color: #555;
     }
-
+//precio
     .precio {
         display: block;
         font-size: 18px;
@@ -46,7 +46,7 @@
         color: $color-primario;
         margin: 10px 0;
     }
-
+//boton para comprar
     .btn-comprar {
         background-color: $color-primario;
         color: white;
