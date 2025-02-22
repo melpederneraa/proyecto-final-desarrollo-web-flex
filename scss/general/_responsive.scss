@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+
+        nav ul {
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 15%;
+        }
+    }
+
+    .productos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto {
+        width: 90%;
+    }
+}

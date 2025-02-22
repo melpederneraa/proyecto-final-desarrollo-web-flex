@@ -1,0 +1,25 @@
+
+/* Contenedor de Preguntas Frecuentes */
+.faq-container {
+    padding: 40px 20px;
+    background-color: $color-blanco;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: $border-radius;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq {
+    margin-bottom: 20px;
+
+    h3 {
+        color: $color-primario;
+        font-size: 1.5rem;
+    }
+
+    p {
+        color: #555;
+        font-size: 1rem;
+    }
+}
+

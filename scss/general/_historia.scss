@@ -1,0 +1,62 @@
+// Sección Historia, Creador y FAQ
+#historia, #creador, #faq {
+    padding: 50px 0;
+}
+
+// Estilo global para las secciones
+.historia, .quien-la-creo {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+
+    .contenido {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .texto {
+        flex: 1;
+        text-align: left;
+
+        h2 {
+            color: $color-primario;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            color: $color-texto;
+        }
+    }
+
+    .img {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: $border-radius;
+        }
+    }
+}
+
+.boton {
+    background-color: $color-primario;
+    padding: 10px 20px;
+    color: $color-blanco;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+
+    &:hover {
+        background-color: #c12573;
+    }
+}
